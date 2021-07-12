@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="543c3fb3-b718-496d-818f-13e6d15b9575" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="9d15728b-f7f0-4f7a-aeee-6801b41a55af" />
+  <component name="ProjectId" id="1v4EQxKxqmKpDB8awrDI2s5ALod" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CategoricalNF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments/molecule_generation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/molecule_generation/train.py" />
+      <option name="PARAMETERS" value="--dataset zinc250k --max_iterations 150000 --batch_size 64 --encoding_dim_nodes 6 --encoding_dim_edges 2 --optimizer 4 --learning_rate 5e-4 --checkpoint_path checkpoints/GraphCNF_zinc250k/ --cluster" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="543c3fb3-b718-496d-818f-13e6d15b9575" name="Default Changelist" comment="" />
+      <created>1625812948982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625812948982</updated>
+      <workItem from="1625812950260" duration="2631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625816371411">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1625816371411" />
+    <state width="2517" height="247" key="GridCell.Tab.0.bottom" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.0.center" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.0.left" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.0.right" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.1.bottom" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.1.center" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.1.left" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state width="2517" height="247" key="GridCell.Tab.1.right" timestamp="1625816441889">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="247" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1625816441889" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1625812986911">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1625812986911" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/general/train.py</url>
+          <line>401</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/molecule_generation/graphCNF.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments/molecule_generation/train.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CategoricalNF$train.coverage" NAME="train Coverage Results" MODIFIED="1625816373156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiments/molecule_generation" />
+  </component>
+</project>
